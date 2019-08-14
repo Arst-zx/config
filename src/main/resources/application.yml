@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/Arst-zx/spring_cloud.git
+          username: Arst-zx
+          password: zx910329
+          basedir: /C:/Users/Arst/IdeaProjects/basedir
+  rabbitmq:
+    addresses: 192.168.99.100:5672
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:1111/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: bus-refresh
+
+#server:
+#  port: 9091
+
+
