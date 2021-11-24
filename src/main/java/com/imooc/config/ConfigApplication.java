@@ -7,7 +7,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * @author: 章鑫
- * @Email: zhangx511@chinaunicom.cn
+ * @Email: 1134303049@qq.com
  * @Project_name：eurekaserver
  * @Name: EurekaServerApplication
  * @date: 2019-08-20 11:28
